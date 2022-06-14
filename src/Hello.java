@@ -26,7 +26,7 @@ public class Hello {
        // Arrays.stream(name).forEach(System.out::println);
         //name.stream().forEach(System.out::println);
         Arrays.stream(name).sorted().forEach(System.out::println);
-
+        System.out.println("new added sentence");
 //        System.out.println("even list"+evenList);
 //        System.out.println("max list"+maxList);
     }
